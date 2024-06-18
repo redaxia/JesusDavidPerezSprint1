@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Events_Past</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Desarrollo hecho con mobile first a partir de 320px-->
+    <div class="container-fluid vh-100">
+        <div class="row">
+            <!--Comienzo del Header-->
+            <header class="col-12 p-0">
+                <!--Comienzo barra de navegación-->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <!--Logo-->
+                        <a class="navbar-brand col-4 col-sm-2 col-md-1" href="index.html">
+                            <img src="./assets/images/amazing_brand.png" alt="amazing_brand">
+                        </a>
+                        <!--Logo-->
+                        <!--Menú Hamburguesa-->
+                        <button class="navbar-toggler p-1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <!--Menú Hamburguesa-->
+                        <!--Menú con 5 elementos-->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="upcoming.html">Upcoming Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="past.html">Past Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link fw-bold" href="stats.html">Stats</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!--Fin del desarrollo del Header-->
+        </div>
+        <div class="row">
+            <!--Comienzo del desarrollo para el Main-->
+            <main class="p-0">
+                <!--Comienzo desarrollo del Carrusel de Imágenes-->
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/optional_banner_3.jpg" class="d-block w-100 img-fluid home-image"
+                                alt="Home Banner">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fw-bold fs-1">Past Events</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/optional_banner_4.jpg" class="d-block w-100 img-fluid"
+                                alt="Upcoming Events Banner">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fw-bold fs-1">Contact</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/optional_banner_5.jpg" class="d-block w-100 img-fluid home-image"
+                                alt="Past Events Banner">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fw-bold fs-1">Stats</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/optional_banner_1.jpg" class="d-block w-100 img-fluid home-image"
+                                alt="Contact Banner">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fw-bold fs-1">Home</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/optional_banner_2.jpg" class="d-block w-100 img-fluid"
+                                alt="Stats Banner">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fw-bold fs-1">Upcoming Events</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--Fin desarrollo del Carrusel de Imágenes-->
+                <!--Comienzo desarrollo Checkboxes + Barra de búsqueda-->
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col-12 col-md-8 d-flex overflow-auto checkbox-container mb-3 mb-md-0">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="checkbox1">
+                                <label for="checkbox1">Food Fair</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="checkbox2">
+                                <label for="checkbox2">Museum</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="checkbox3">
+                                <label for="checkbox3">Costume Party</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="checkbox4">
+                                <label for="checkbox4">Music Concert</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="checkbox5">
+                                <label for="checkbox5">Book Exchange</label>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <form class="d-flex p-0">
+                                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                                <button class="btn btn-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin desarrollo Checkboxes + Barra de búsqueda-->
+                <!--Comienzo desarrollo Cards-->
+                <div class="row justify-content-center mx-0 mt-3">
+                    <div class="col-11 col-md-5 col-lg-2 p-0 m-3">
+                        <div class="card mx-auto h-100">
+                            <img src="./assets/images/food_fair.jpg" class="card-img-top img-fluid"
+                                alt="Food Fair Card">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-center mb-auto">Gastronomic Festival</h5>
+                                <p class="card-text text-center">Experience a variety of international cuisines in a vibrant atmosphere.</p>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-0">5.00 $</p>
+                                        <a href="details.html" class="btn btn-primary">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-5 col-lg-2 p-0 m-3">
+                        <div class="card mx-auto h-100">
+                            <img src="./assets/images/costume_party.jpg" class="card-img-top img-fluid"
+                                alt="Costume Party Card">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-center mb-auto">Carnival Night</h5>
+                                <p class="card-text text-center">Dress up in your spookiest costume and compete for amazing prizes.</p>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-0">12.00 $</p>
+                                        <a href="details.html" class="btn btn-primary">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-5 col-lg-2 p-0 m-3">
+                        <div class="card mx-auto h-100">
+                            <img src="./assets/images/music_concert.jpg" class="card-img-top img-fluid"
+                                alt="Music Concert Card">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-center mb-auto">Live Metallica Performance</h5>
+                                <p class="card-text text-center">Join us for an electrifying concert with the legendary band Metallica.</p>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-0">150.00 $</p>
+                                        <a href="details.html" class="btn btn-primary">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-11 col-md-5 col-lg-2 p-0 m-3">
+                        <div class="card mx-auto h-100">
+                            <img src="./assets/images/books.jpg" class="card-img-top img-fluid" alt="Book Fair Card">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title fw-bold text-center mb-auto">Annual Book Exchange</h5>
+                                <p class="card-text text-center">Exchange your old books for new reads at our community book fair.</p>
+                                <div class="mt-auto">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <p class="mb-0">1.00 $</p>
+                                        <a href="details.html" class="btn btn-primary">Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Fin del desarrollo Cards-->
+            </main>
+            <!--Fin del desarrollo para el Main-->
+            <!--Comienzo del desarrollo del footer-->
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 mb-0 pb-0 border-top">
+                <!--Redes Sociales-->
+                <ul
+                    class="nav col-12 col-md-6 justify-content-center justify-content-md-start list-unstyled d-flex mb-4">
+                    <li class="ms-3"><a class="text-body-secondary d-flex justify-content-center align-items-center"
+                            href="#">
+                            <img src="./assets/images/facebook.png" class="img-fluid w-50" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="ms-3"><a class="text-body-secondary d-flex justify-content-center align-items-center"
+                            href="#">
+                            <img src="./assets/images/instagram.png" class="img-fluid w-50" alt="Instagram">
+                        </a></li>
+                    <li class="ms-3"><a class="text-body-secondary d-flex justify-content-center align-items-center"
+                            href="#">
+                            <img src="./assets/images/whatsapp.png" class="img-fluid w-50" alt="Whatsapp">
+                        </a></li>
+                </ul>
+                <!--Redes Sociales-->
+                <!--Contenedor del Logo y empresa-->
+                <div class="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-end">
+                    <a href="index.html"
+                        class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1 d-flex justify-content-center justify-content-md-end logo-footer">
+                        <img src="./assets/images/amazing_brand.png" class="img-fluid" alt="Amazing Brand">
+                    </a>
+                    <span class="mb-3 mb-md-0 text-body-secondary pe-2">© 2024 Company, Inc</span>
+                </div>
+                <!--Contenedor del Logo y empresa-->
+            </footer>
+            <!--Comienzo del desarrollo del footer-->
+        </div>
+    </div>
+    <!--Scripts para el funcionamiento de Bootstrap 5.3-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--Scripts para el funcionamiento de Bootstrap 5.3-->
+</body>
+
+</html>
